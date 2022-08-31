@@ -15,6 +15,7 @@ module.exports = {
         customLightRed: "#FB547C",
         customGreen: "#1F9795",
         customLightGreen: "#EEFBFA",
+        customLightGreen2: "#B6FBEA",
         customDarkGreen: "#03526F",
         customBlueGreen: "#2BD4D1"
       }

@@ -24,7 +24,7 @@
     </nav>
 
     <!-- Hero -->
-    <section id="hero relative">
+    <section id="hero">
         <div id="hero-img">
             <img src="img/Hero.jpg" alt="" srcset="" class="hidden md:block">
             <img src="img/mobile-hero.jpg" alt="" srcset="" class="block md:hidden">
@@ -54,13 +54,43 @@
     </section>
 
     <!-- Hiking Icons -->
-    <!-- <section id="hiking-icons mt-96">
-        <div class="flex flex-row justify-center items-center">
-            <i class="la la-home text-customRed"></i>
+    <section id="hiking-icons" class="relative mt-36 block md:hidden">
+        <div class="flex flex-row justify-center items-center mx-auto container text-customGreen">
             <i class="las la-blind la-3x"></i>
-            <i class="las la-mountain"></i>
-            <i class="las la-battery-three-quarters"></i>
+            <i class="las la-mountain la-10x"></i>
         </div>
-    </section> -->
+    </section>
+
+    <!-- Countries -->
+    <section id="countries" class="relative mt-12 mb-12 md:mt-0 md:top-80">
+        <div class="flex flex-col justify-between items-center container mx-auto mb-6 md:mb-10">
+            <span class="float-right w-24 h-1 bg-customRed rounded-full"></span>
+            <div>
+                <h1 class="text-customGreen tracking-widest text-2xl md:text-3xl font-extrabold">
+                    COUNTRIES
+                </h1>
+            </div>
+        </div>
+        <div class="mb-5">
+            <div class="flex flex-col justify-center items-center w-4/6 mx-auto md:mx-0 md:w-full">
+                <div class="md:w-1/2 relative text-white">
+                    <div class="flex flex-col justify-between items-center absolute md:top-16 p-5">
+                        <p class="font-extrabold text-2xl md:text-3xl">PERU</p>
+                        <div class="flex flex-row justify-between items-center">
+                            <p class="font-extrabold">Peru is famous for its hiking – and for good reason. The world’s longest mountain range, the Andes, runs the length of Peru.</p>
+                            <img src="img/bar.svg" alt="" srcset="" class="hidden md:block">
+                            <img src="img/bar.svg" alt="" srcset="" class="block md:hidden">
+                        </div>
+                    </div>
+                    <img src="img/peru.jpg" alt="" srcset="" class="hidden md:block">
+                    <img src="img/peru-mobile.jpg" alt="" srcset="" class="block md:hidden">
+                </div>
+                <div class="bg-white drop-shadow p-5 md:w-1/2">
+                    <p class="text-customDarkGreen font-bold">The most famous Andean hike in Peru is the route to Machu Picchu. The Machu Picchu trail offers hikers an opportunity to explore ancient ruins while being challenged by highly mountainous terrain, ending with a breathtaking view. While this trail has a relatively mild climate, hikers should be cautious of the rainy season between October and April.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer class="relative mt-12 md:mt-52 md:top-80 text-customLightGreen">.</footer>
 </body>
 </html>
