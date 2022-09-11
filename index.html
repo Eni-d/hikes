@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="https://maxst.icons8.com/vue-static/landings/line-awesome/line-awesome/1.3.0/css/line-awesome.min.css">
     <link rel="shortcut icon" href="img/Logo.svg" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
     <title>Hikes</title>
 </head>
 <body class="bg-customLightGreen">
@@ -43,7 +44,7 @@
                     <div class="relative">
                         <div class="absolute flex flex-col justify-between items-left p-2 md:p-4 md:pt-8">
                             <p class="text-customDarkGreen font-bold text-sm md:text-xl">We take you through various hiking experiences world wide.</p>
-                            <a href="" class="rounded-full text-white text-center text-sm bg-customRed font-bold p-1.5 w-36 mt-2 md:p-3 md:w-1/3 md:mt-5 md:text-base hover:bg-customLightRed">Let’s get started</a>
+                            <a href="#countries" class="rounded-full text-white text-center text-sm bg-customRed font-bold p-1.5 w-36 mt-2 md:p-3 md:w-1/3 md:mt-5 md:text-base hover:bg-customLightRed">Let’s get started</a>
                         </div>
                         <img src="img/lottie-svg.svg" alt="" srcset="" width="500" height="500">
                     </div>
@@ -71,26 +72,108 @@
                 </h1>
             </div>
         </div>
-        <div class="mb-5">
-            <div class="flex flex-col justify-center items-center w-4/6 mx-auto md:mx-0 md:w-full">
-                <div class="md:w-1/2 relative text-white">
-                    <div class="flex flex-col justify-between items-center absolute md:top-16 p-5">
-                        <p class="font-extrabold text-2xl md:text-3xl">PERU</p>
-                        <div class="flex flex-row justify-between items-center">
-                            <p class="font-extrabold">Peru is famous for its hiking – and for good reason. The world’s longest mountain range, the Andes, runs the length of Peru.</p>
-                            <img src="img/bar.svg" alt="" srcset="" class="hidden md:block">
-                            <img src="img/bar.svg" alt="" srcset="" class="block md:hidden">
+        <div class="mb-5 relative" id="slides">
+            <div class="w-full h-screen bg-zinc-900 absolute">
+            </div>
+            <!-- Slider main container -->
+            <div class="swiper">
+                <!-- Additional required wrapper -->
+                <div class="swiper-wrapper">
+                    <!-- Slides -->
+                    <div class="swiper-slide">
+                        <div class="flex flex-col justify-center items-center w-4/6 mx-auto md:mx-0 md:w-full">
+                            <div class="md:w-1/2 relative top-16 text-white">
+                                <div class="flex flex-col justify-between items-center absolute md:top-16 p-5">
+                                    <p class="font-extrabold text-2xl md:text-3xl">PERU</p>
+                                    <div class="flex flex-row justify-between items-center">
+                                        <p class="font-extrabold">Peru is famous for its hiking – and for good reason. The world’s longest mountain range, the Andes, runs the length of Peru.</p>
+                                        <img src="img/bar.svg" alt="" srcset="" class="hidden md:block">
+                                        <img src="img/bar.svg" alt="" srcset="" class="block md:hidden">
+                                    </div>
+                                </div>
+                                <img src="img/hiking.jpg" alt="" srcset="" class="hidden md:block">
+                                <img src="img/hiking-mobile.jpg" alt="" srcset="" class="block md:hidden">
+                            </div>
+                            <div class="bg-white drop-shadow p-5 mt-16 md:w-1/2">
+                                <p class="text-customDarkGreen font-bold">The most famous Andean hike in Peru is the route to Machu Picchu. The Machu Picchu trail offers hikers an opportunity to explore ancient ruins while being challenged by highly mountainous terrain, ending with a breathtaking view. While this trail has a relatively mild climate, hikers should be cautious of the rainy season between October and April.</p>
+                            </div>
                         </div>
                     </div>
-                    <img src="img/peru.jpg" alt="" srcset="" class="hidden md:block">
-                    <img src="img/peru-mobile.jpg" alt="" srcset="" class="block md:hidden">
+                    <div class="swiper-slide">
+                        <div class="flex flex-col justify-center items-center w-4/6 mx-auto md:mx-0 md:w-full">
+                            <div class="md:w-1/2 relative top-16 text-white">
+                                <div class="flex flex-col justify-between items-center absolute md:top-16 p-5">
+                                    <p class="font-extrabold text-2xl md:text-3xl">FRANCE</p>
+                                    <div class="flex flex-row justify-between items-center">
+                                        <p class="font-extrabold">Although France is painted as all Champs-Elysees, museums, and robust cheeses, the French Alps are home to some of the best hikes in the world. </p>
+                                        <img src="img/bar.svg" alt="" srcset="" class="hidden md:block">
+                                        <img src="img/bar.svg" alt="" srcset="" class="block md:hidden">
+                                    </div>
+                                </div>
+                                <img src="img/hiking.jpg" alt="" srcset="" class="hidden md:block">
+                                <img src="img/hiking-mobile.jpg" alt="" srcset="" class="block md:hidden">
+                            </div>
+                            <div class="bg-white drop-shadow p-5 mt-16 md:w-1/2">
+                                <p class="text-customDarkGreen font-bold">The dramatic and varied scenery, combined with a distinctive (and completely irresistible) culture, add up to hiking routes that are magnifique! The southeast Alps is one of the best hiking destinations in France. Snowy terrain and giant river systems offer a challenge to hikers who enjoy a thrill, while elsewhere in France classic rolling countryside allows for gentler walks. </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="flex flex-col justify-center items-center w-4/6 mx-auto md:mx-0 md:w-full">
+                            <div class="md:w-1/2 relative top-16 text-white">
+                                <div class="flex flex-col justify-between items-center absolute md:top-16 p-5">
+                                    <p class="font-extrabold text-2xl md:text-3xl">NEW ZEALAND</p>
+                                    <div class="flex flex-row justify-between items-center">
+                                        <p class="font-extrabold">Kiwis (New Zealanders, not the fruit) are an adventurous and outdoorsy bunch, and in New Zealand, hiking is practically a national pastime.</p>
+                                        <img src="img/bar.svg" alt="" srcset="" class="hidden md:block">
+                                        <img src="img/bar.svg" alt="" srcset="" class="block md:hidden">
+                                    </div>
+                                </div>
+                                <img src="img/hiking.jpg" alt="" srcset="" class="hidden md:block">
+                                <img src="img/hiking-mobile.jpg" alt="" srcset="" class="block md:hidden">
+                            </div>
+                            <div class="bg-white drop-shadow p-5 mt-16 md:w-1/2">
+                                <p class="text-customDarkGreen font-bold">When you touch down in the Middle Earth-esque landscapes, it’s not hard to see why. Between the two main islands, you will find some of the best hikes in the world. Hikers can see mountains, forests, lakes, waterfalls, and national parks. There are even plenty of hot pools and geysers spitting out of the ground just to spice things up. </p>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-                <div class="bg-white drop-shadow p-5 md:w-1/2">
-                    <p class="text-customDarkGreen font-bold">The most famous Andean hike in Peru is the route to Machu Picchu. The Machu Picchu trail offers hikers an opportunity to explore ancient ruins while being challenged by highly mountainous terrain, ending with a breathtaking view. While this trail has a relatively mild climate, hikers should be cautious of the rainy season between October and April.</p>
-                </div>
+                <!-- If we need pagination -->
+                <div class="swiper-pagination"></div>
+
+                <!-- If we need navigation buttons -->
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
+
+                <!-- If we need scrollbar -->
+                <div class="swiper-scrollbar"></div>
             </div>
         </div>
     </section>
     <footer class="relative mt-12 md:mt-52 md:top-80 text-customLightGreen">.</footer>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <script>
+        const swiper = new Swiper('.swiper', {
+            // Optional parameters
+            direction: 'horizontal',
+            loop: true,
+
+            // If we need pagination
+            pagination: {
+                el: '.swiper-pagination',
+            },
+
+            // Navigation arrows
+            navigation: {
+                nextEl: '.swiper-button-next',
+                prevEl: '.swiper-button-prev',
+            },
+
+            // And if we need scrollbar
+            scrollbar: {
+                el: '.swiper-scrollbar',
+            },
+        });
+    </script>
 </body>
 </html>
